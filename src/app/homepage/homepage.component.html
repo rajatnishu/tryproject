@@ -1,0 +1,49 @@
+<style>
+    .img {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKwdZwjdSut2twa91DO2nN7Q7NbtfQEwTdpyfmCn_pvIfwFb9D");
+        background-size: cover;
+        min-width: 100vh;
+        min-height: 100vh;
+        position: relative;
+    }
+    .top{
+        padding-top: 17rem;
+    }
+
+    .pointer:hover{
+        text-decoration: underline;
+        color: blue;
+
+    }
+</style>
+<section>
+    <app-navbar></app-navbar>
+    <div class="img">
+    <div class="container">
+       
+            <div class="row top">
+                <div class="col-md-3 pointer">
+                    <p> kdhvjfdvhdjkksvj</p>
+
+                </div>
+
+                <div class="col-md-3 pointer">
+                    <p> kdhvjfdvhdjkksvj</p>
+
+                </div>
+                <div class="col-md-3 pointer">
+                    <p (click)="groceries()"> Groceries</p>
+
+                </div>
+
+                <div class="col-md-3 pointer">
+                        <p (click)="move()"> Food</p>
+    
+                    </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
